@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Donate | Mooluru Educational Trust</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Mooluru Educational Trust</h1>
+    <p>Empowering Education, Enriching Lives</p>
+  </header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="programs.html">Programs</a>
+  <a href="scholarships.html">Scholarships</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="blog.html">Blog</a>
+  <a href="donate.html">Donate</a>
+  <a href="contact.html">Contact</a>
+</nav>
+  <main>
+    <section>
+      <h2>Support Our Cause</h2>
+      <p>
+        Your generous donation helps us provide quality education and scholarships to deserving students.
+      </p>
+      <form id="donationForm" action="https://www.paypal.com/donate" method="post" target="_blank">
+        <label for="donationAmount">Donation Amount (INR):</label><br />
+        <input type="number" id="donationAmount" name="amount" min="100" required placeholder="Enter amount" /><br /><br />
+
+        <label for="donorName">Name:</label><br />
+        <input type="text" id="donorName" name="name" required placeholder="Your full name" /><br /><br />
+
+        <label for="donorEmail">Email:</label><br />
+        <input type="email" id="donorEmail" name="email" required placeholder="Your email address" /><br /><br />
+
+        <label for="message">Message (Optional):</label><br />
+        <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea><br /><br />
+
+        <button type="submit">Donate Now</button>
+      </form>
+      <p class="note">
+        Donations are securely processed via PayPal. You can also donate via bank transfer:<br />
+        <strong>Account Name:</strong> Mooluru Educational Trust<br />
+        <strong>Account Number:</strong> 1234567890<br />
+        <strong>Bank:</strong> XYZ Bank, Chittoor Branch<br />
+        <strong>IFSC Code:</strong> XYZB0000123
+      </p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Mooluru Educational Trust. All rights reserved.
+  </footer>
+</body>
+</html>
